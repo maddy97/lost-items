@@ -1,6 +1,6 @@
 <?php require VIEW_ROOT . '/templates/header.php'?>
 <?php if(empty($pages)): ?>
-	<p>Sorry no article</p>
+	<p>Sorry no ARTICLE</p>
 <?php else: ?>
 	<ul>
 		 <?php foreach ($pages as $page):?>
