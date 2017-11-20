@@ -1,6 +1,6 @@
 body {
 	font:1em "Helvitica",sans-serif;
-	background-color:#edeff0;
+	background-color:lightblue;
 	margin: 0;
 }
 .wrapper{
@@ -8,7 +8,7 @@ body {
 	padding: 20px;
 	width: 100%;
 	max-width: 800px;
-	background-color: #fff;
+	background-color:lightblue;
 }
 
 h1,

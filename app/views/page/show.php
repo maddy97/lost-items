@@ -1,9 +1,9 @@
 <?php require VIEW_ROOT . '/templates/header.php'?>
   <?php if(!$page): ?>
-  	<p>Sorry No ARTICLE found </p>
+  	<p>Sorry No Articles Found</p>
   <?php else: ?>
-  	<h2><?php echo e($page['title']); ?></h2>
-  	<?php echo e($page['body']);?>
+  	<h2>Sender: <?php echo e($page['title']); ?></h2>
+  	Description: <?php echo e($page['body']);?>
 
 <p class="faded">
 Created on <?php echo $page['created']->format('jS M Y'); ?>
